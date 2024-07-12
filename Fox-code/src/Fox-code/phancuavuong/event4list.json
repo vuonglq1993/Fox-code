@@ -1,0 +1,14 @@
+[
+    {
+        "detail1": "UX/UI Designers",
+        "detail2": "Data Architects",
+        "detail3": "Data Scientists",
+        "detail4": "Front-end Developers"
+    },
+    {
+        "detail1": "Cloud Architects",
+        "detail2": "Machine Learning Engineers",
+        "detail3": "Data Engineers",
+        "detail4": "Back-end Developers"
+    }
+]

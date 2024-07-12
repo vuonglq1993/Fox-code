@@ -1,0 +1,61 @@
+b {
+    color: #fff;
+}
+
+.box {
+    display: flex;
+    line-height: 2rem !important;
+    margin: 8rem auto;
+}
+
+.box .info {
+    margin-top: 0 !important;
+}
+
+.box p {
+    font-size: 1.5rem;
+}
+
+.article1, .article2 {
+    padding: 2rem 2rem !important;
+    width: 100%;
+    display: inline-block;
+    margin: 1rem 1.5rem 0 1.5rem;
+    border: 1px solid rgb(74, 74, 74);
+    background-color: rgb(38, 38, 38);
+    color: white;
+    border-radius: 10px;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.article1:hover, .article2:hover {
+    opacity: 1;
+    background-color: #2d72ba;
+}
+
+.article1 {
+    margin-bottom: 10rem;
+}
+.article2 {
+    margin-top: 10rem;
+}
+
+.dialog {
+    padding: 2rem 2rem !important;
+    width: 100%;
+    display: inline-block;
+    margin: 1rem 1.5rem 0 1.5rem;
+    border: 1px solid rgb(74, 74, 74);
+    background-color: rgb(38, 38, 38);
+    color: white;
+    border-radius: 10px;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}

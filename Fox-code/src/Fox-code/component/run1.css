@@ -1,0 +1,293 @@
+@keyframes fade-up {
+    from {
+        transform: translateY(10%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-right {
+    from {
+        transform: translateX(-10%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-left {
+    from {
+        transform: translateX(10%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.Staffservicepage {
+    background-color: rgb(25 25 25);
+    overflow: hidden;
+}
+.line1 {
+    overflow: hidden;
+    width: 103%;
+}
+
+.line1 .info {
+    letter-spacing: 0.5rem;
+    font-size: clamp(0.6rem, 0.8vw, 10rem);
+    color: white;
+    margin: 10rem 0 0 0;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+    /* text-align: center; */
+}
+
+.line1 .h1text {
+     padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: clamp(2.5rem, 5vw, 10rem);
+    line-height: clamp(2.5rem, 5vw, 10rem);
+    color: rgb(255, 255, 255);
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.line1 strong {
+    font-weight: 500;
+    background: linear-gradient(106deg, #b9c3ff 12.8%, #d7b8ff 47%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.line1 .line1end {
+    font-size: clamp(1rem, 1.7vw, 10rem);
+    color: white;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+.line2 .col-lg-3 {
+    padding-bottom: 2rem;
+    padding-top: 5rem;
+    padding-left: 7rem;
+    justify-content: center;
+    align-items: center;
+}
+.line2 .h1text {
+    padding-top: 5rem;
+   padding-bottom: 5rem;
+   font-size: clamp(2.5rem, 4vw, 10rem);
+   line-height: clamp(2.5rem, 5vw, 10rem);
+   color: rgb(255, 255, 255);
+   opacity: 0;
+   animation-name: fade-up;
+   animation-duration: 3s;
+   animation-delay: 100ms;
+   animation-fill-mode: forwards;
+}
+
+.line2 strong {
+   font-weight: 500;
+   background: linear-gradient(106deg, #b9c3ff 12.8%, #d7b8ff 47%);
+   font-size: clamp(2.5rem, 3vw, 10rem);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.line2 .info {
+    letter-spacing: 0.5rem;
+    font-size: clamp(0.6rem, 0.8vw, 10rem);
+    color: white;
+    margin: 10rem 0 0 0;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+    /* text-align: center; */
+}
+.custom-hover-button {
+    transition: background-color 0.3s ease, background-image 0.3s ease;
+    background: linear-gradient(109deg, #334fff 13.24%, #7433ff 92.35%);
+    border-radius: 190px;
+    border-width: 1px;
+    border: 0 solid;
+    letter-spacing: -.64px;
+    
+   
+    /* border-color: rgb(255 255 255 / var(--tw-border-opacity)); */
+}
+
+.custom-hover-button:hover {
+    background-image: linear-gradient(135deg, #667eea, #764ba2, #6b6b83, #2b8cbe, #6b6b83, #764ba2, #667eea);
+    color: #fff;
+    background-size: 400% 400%;
+    animation: galaxy 5s ease infinite;
+}
+.custom-size-button {
+    padding: 0px 32px !important; /* Tăng kích thước nút */
+    font-size: 1.2rem !important; /* Tăng kích thước chữ */
+    height: 3rem;
+    
+    
+}
+    
+
+@keyframes galaxy {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+.listbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 5rem;
+}
+
+
+
+.outer-box {
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    flex: 1 1 calc(33.333% - 40px); /* Chiều rộng của mỗi box chiếm 1/3 chiều rộng của container, trừ đi khoảng cách */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-position: center;
+    height: 40rem;
+}
+
+.inner-box {
+    background-color: rgba(5, 3, 3, 0.9);    /*Màu nền với độ mờ cho nội dung bên trong */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 28rem;
+    width: 23.6rem;
+}
+
+.outer-box h2 {
+    margin-bottom: 10px;
+    color: white;
+    text-align: left;
+    font-size: 1.6rem;
+}
+
+.outer-box p {
+    color: white;
+    text-align: left;
+}
+
+/* Responsive Design: Khi chiều rộng của màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+    .outer-box {
+        flex: 1 1 100%; /* Box chiếm toàn bộ chiều rộng của container */
+    }
+}
+
+/* Background images for individual boxes */
+.box1 {
+    background-image: url('https://code-labs.s3.amazonaws.com/www.code-labs.com/uploads/El_Tiempo_Chevrolet_Camaro_experience_2_30c8c8ee4b.webp'); /* Thay đổi URL cho ảnh nền của Box 1 */
+}
+
+.box2 {
+    background-image: url('https://code-labs.s3.amazonaws.com/www.code-labs.com/uploads/University_of_Miami_Health_System_Cards_for_a_cure_2_992017bae7.webp'); /* Thay đổi URL cho ảnh nền của Box 2 */
+}
+
+.box3 {
+    background-image: url('https://code-labs.s3.amazonaws.com/www.code-labs.com/uploads/Cavas_2_7e377ca2aa.webp'); /* Thay đổi URL cho ảnh nền của Box 3 */
+}
+.box4 {
+    background-image: url('https://code-labs.s3.amazonaws.com/www.code-labs.com/uploads/Marca_Pais_Procolombia_Colombia_2_99062c497a.webp');
+}
+.box5{
+    background-image: url('https://code-labs.s3.amazonaws.com/www.code-labs.com/uploads/Cusezar_2_724ffef3fd.webp');
+}
+.box6{
+    background-image: url('https://code-labs.s3.amazonaws.com/www.code-labs.com/uploads/Davivienda_Comercios_davivienda_2_ae66d85446.webp');
+}
+.view-project-button {
+    display: inline-block;
+    background-color: #333; /* Màu nền của nút */
+    color: #fff; /* Màu chữ của nút */
+    padding: 10px 20px; /* Kích thước của nút */
+    border-radius: 5px; /* Bo góc của nút */
+    text-decoration: none; /* Xóa gạch chân của link */
+    font-size: 16px; /* Kích thước chữ */
+    font-weight: bold; /* Đậm chữ */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Hiệu ứng chuyển màu khi hover */
+}
+
+.view-project-button:hover {
+    background-color: #ff5722; /* Màu nền khi hover */
+    color: #fff; /* Màu chữ khi hover */
+    text-decoration: none; /* Không có gạch chân khi hover */
+}
+
+.view-project-button::after {
+    content: "→"; /* Thêm mũi tên ở cuối nút */
+    display: inline-block;
+    margin-left: 8px; /* Khoảng cách giữa chữ và mũi tên */
+    font-size: 18px; /* Kích thước của mũi tên */
+    transition: margin-left 0.3s ease; /* Hiệu ứng chuyển động của mũi tên khi hover */
+}
+
+.view-project-button:hover::after {
+    margin-left: 12px; /* Tăng khoảng cách của mũi tên khi hover */
+}
+.line5 .h1text {
+    padding-top: 5rem;
+   /* padding-bottom: 1rem; */
+   font-size: clamp(2.5rem, 2.5rem, 10rem);
+   line-height: clamp(2.5rem, 5vw, 10rem);
+   color: rgb(255, 255, 255);
+   opacity: 0;
+   animation-name: fade-up;
+   animation-duration: 3s;
+   animation-delay: 100ms;
+   animation-fill-mode: forwards;
+}
+.line5 .line5end {
+    font-size: clamp(1rem, 2.5rem, 10rem);
+    color: white;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+    padding-top: 5rem;
+   /* padding-bottom: 1rem; */
+}
+.line5 strong {
+    font-weight: 500;
+    background: linear-gradient(106deg, #b9c3ff 12.8%, #d7b8ff 47%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+

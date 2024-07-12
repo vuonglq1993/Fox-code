@@ -1,0 +1,39 @@
+
+.footer-font {
+    color: #fff;
+    text-decoration: none;
+}
+
+.left p {
+    font-size: 36px;
+    margin-bottom: 48px;
+    margin-bottom: 48px;
+}
+
+.mid a {
+    font-size: 36px;
+}
+
+.contact-link {
+    margin-bottom: 48px;
+}
+
+.mid p {
+    font-size: 36px;
+}
+
+.custom-list {
+    list-style-type: none;
+}
+
+.right li {
+    line-height: 4;
+}
+
+.right a:hover {
+    text-decoration: underline;
+}
+
+.low {
+    border-bottom: 1px solid #fff;
+}

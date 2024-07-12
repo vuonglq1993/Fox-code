@@ -1,0 +1,75 @@
+img{
+    width: 13rem;
+}
+.custom-navbar {
+    background-color: rgba(0, 0, 0, 0.438);
+    opacity: 0.95;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    backdrop-filter: blur(50px);
+}
+.navbar-brand {
+    color: white;
+}
+
+.nav-link,
+.nav-link.active {
+    color: white !important;
+    font-size: clamp(1rem, 2vw, 10rem);
+}
+
+.nav-link:hover,
+.nav-link.active:hover {
+    color: #007aff !important;
+}
+
+.nav-link.active {
+    border-bottom: 1px solid white;
+}
+
+.nav-link.active:hover {
+    border-bottom: 1px solid #007aff !important;
+}
+
+.button {
+    margin: 1rem 0;
+    /* width: 15rem; */
+    height: 3rem;
+    border: none;
+    border-radius: 100px;
+    background: linear-gradient(109deg, #334fff 13.24%, #7433ff 92.35%);
+    opacity: 1;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.message {
+    margin: 0 1rem 0 1rem;
+    color: white;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.button:hover {
+    background: linear-gradient(109deg, #7433ff 13.24%, #334fff 92.35%);
+}
+
+.inbutton {
+    color: white;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.navbar-toggle-icon {
+    background-color: #fff !important;
+}
