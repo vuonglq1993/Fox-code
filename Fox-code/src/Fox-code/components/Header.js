@@ -13,14 +13,14 @@ const Header = () => {
         <section>
             <Navbar variant="dark" expand="lg" className="custom-navbar">
                 <Container>
-                    <Navbar.Brand className='LOGO' href="/HomePage"><img src={logo} alt='logo' /></Navbar.Brand>
+                    <Navbar.Brand href="/HomePage"><img src={logo} alt='logo' className='LOGO' /></Navbar.Brand>
                     <Navbar.Toggle className="navButton" aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto mx-auto">
                             <Nav.Link href="/HomePage">Home</Nav.Link>
                             <Nav.Link href="/staff">Services</Nav.Link>
                             <Nav.Link href="/run1">Portfolio</Nav.Link>
-                            <Nav.Link href="#aboutUs">About us</Nav.Link>
+                            <Nav.Link href="/AboutUs">About us</Nav.Link>
                             <Nav.Link href="/Workwithus">Work with us</Nav.Link>
                         </Nav>
                         <div className="row justify-content-center">

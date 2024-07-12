@@ -1,0 +1,315 @@
+@keyframes fade-up {
+    from {
+        transform: translateY(10%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-right {
+    from {
+        transform: translateX(-10%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-left {
+    from {
+        transform: translateX(10%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.Staffservicepage {
+    background-color: rgb(25 25 25);
+    overflow: hidden;
+}
+
+.event1 {
+    overflow: hidden;
+    width: 103%;
+}
+
+.event1 .info {
+    letter-spacing: 0.3rem;
+    font-size: clamp(0.7rem, 0.8vw, 10rem);
+    color: white;
+    margin: 5rem 0 0 0;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+    /* text-align: center; */
+}
+
+.event1 .h1text {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: clamp(2.5rem, 5vw, 10rem);
+    line-height: clamp(2.5rem, 5vw, 10rem);
+    color: white;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.event1 strong, .event7 strong {
+    font-weight: 500;
+    background: linear-gradient(106deg, #b9c3ff 12.8%, #d7b8ff 47%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.event1 .event1end {
+    font-size: clamp(1rem, 1.7vw, 10rem);
+    color: white;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.event1 .button1, .event4 .button1, .event6 .button1, .event7 .button1 {
+    margin: 0rem 2rem 10rem 2rem;
+    width: 11rem;
+    height: 3rem;
+    border: none;
+    border-radius: 100px;
+    background: linear-gradient(109deg, #334fff 13.24%, #7433ff 92.35%);
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+.event1 .button2, .event4 .button2{
+    color:white;
+    margin: 0rem 2rem 10rem 2rem;
+    width: 13rem;
+    height: 3rem;
+    border: 0.05rem solid white;
+    border-radius: 100px;
+    background: transparent;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+.event2 .button2{
+    color:white;
+    margin: 0rem 2rem 2rem 2rem;
+    width: 13rem;
+    height: 3rem;
+    border: 0.05rem solid white;
+    border-radius: 100px;
+    background: transparent;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+.event4 .button1, .event4 .button2{
+    margin-top: 3rem;
+}
+.event1 .button1:hover, .event4 .button1:hover, .event6 .button1:hover, .event7 .button1:hover  {
+    background: linear-gradient(109deg, #7433ff 13.24%, #334fff 92.35%);
+}
+.event1 .button2:hover, .event2 .button2:hover, .event4 .button2:hover {
+    border: none;
+    background: linear-gradient(109deg, #7433ff 13.24%, #334fff 92.35%);
+}
+
+.event1 .message, .event2 .message, .event4 .message, .event6 .message, .event7 .button1 {
+    font-weight: 600;
+    margin: 0 1rem 0 1rem;
+    color: white;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.event1 .inbutton, .event2 .inbutton, .event4 .inbutton, .event6 .inbutton, .event7 .inbutton {
+    color: white;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.event2 {
+    margin: 0 0 0 0;
+    overflow: hidden;
+    width: 103%;
+}
+
+.event2 img{
+    margin:3rem;
+    max-width:10rem;
+}
+
+.section-event2{
+    border-radius: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.event3 {
+    overflow: hidden;
+    width: 103%;
+}
+
+.event3 h1{
+    font-size: 10 rem;
+}
+
+.event3 .info {
+    letter-spacing: 0.5rem;
+    font-size: clamp(0.6rem, 0.8vw, 10rem);
+    color: white;
+    margin: 10rem 0 0 0;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.event3 .h1text {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    font-size: clamp(2.5rem, 3.2vw, 6rem);
+    line-height: clamp(2.5rem, 3.5vw, 6rem);
+    color: white;
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+
+.event3 strong {
+    font-weight: 480;
+    background: linear-gradient(106deg, #b9c3ff 50%, #d7b8ff 99%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.event4 .col-3, .event6 .col-4{
+    font-family: 'UTM Avo';
+    color:white;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.event7 .col-2{
+    margin-top: 2rem;
+    font-family: 'UTM Avo';
+    color:white;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.event7 h1{
+    margin-top: -1rem;
+    font-family: 'UTM Avo';
+    font-size: 13.5em;
+}
+.event7 h2{
+    font-family: 'UTM Avo';
+    font-size: 2.9rem;
+    margin-top: -1rem;
+}
+.event7 h3{
+    font-family: 'UTM Avo';
+    line-height: 6rem;
+    font-size: 16rem;
+}
+.event7 .button1 {
+    margin-top:1rem;
+    width: 14rem;
+    height: 3;
+}
+.event7 .message {
+    padding-right:1rem;
+}
+.event4 h1, .event4 h4, .event4 h5, .event4 li, .event6 h1, .event6 h4{
+    text-align: start;
+}
+.event4 h4, .event6 h4{
+    font-size: larger;
+    line-height: 1.7rem;
+}
+.event4 h1{
+    font-weight: 700;
+}
+.event4 h5{
+    font-size: medium;
+}
+.event4 li{
+    font-size:small;
+    line-height: 1.5rem;
+}
+
+.event6{
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+.event6 .col-8 .h1text {
+    /* margin: 0 0 0 18rem; */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: clamp(2.5rem, 4vw, 10rem);
+    line-height: clamp(2.5rem, 4vw, 10rem);
+    color: white;
+
+}
+.event6 .button1{
+    display: block;
+    margin:2rem 0 0 0;
+    align-items: start;
+}
+
+.event7 {
+    margin-left: clamp(1rem, 4vw, 10rem);
+    margin-right: clamp(1rem, 4vw, 10rem);
+    opacity: 0;
+    animation-name: fade-up;
+    animation-duration: 3s;
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+}
+.event7 h1, .event7 h2{
+    color:white;
+}
+.section-event7{
+    margin: 14rem 0 10rem 0;
+}
